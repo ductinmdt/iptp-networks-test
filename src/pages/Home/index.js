@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom'
-import Details from '../Details'
+import { Link, Outlet } from 'react-router-dom'
 import './Home.module.scss'
 
 function Home() {
